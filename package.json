@@ -1,0 +1,23 @@
+{
+  "name": "kanban4you",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GildedRose/Kanban4You.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GildedRose/Kanban4You/issues"
+  },
+  "homepage": "https://github.com/GildedRose/Kanban4You#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {}
+}
