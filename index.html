@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/_partial.scss"> <!-- SASS -->
+  </head>
+  
+  <body>
+<!-- Navigation Bar -->
+    <nav class="top-bar topbar-responsive">
+      <div class="top-bar-title">
+        <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+        </span>
+        <a class="topbar-responsive-logo" href="#"><strong>Kanban 4 You</strong></a>
+      </div>
+      <div id="topbar-responsive" class="topbar-responsive-links">
+        <div class="top-bar-right">
+          <ul class="menu simple vertical medium-horizontal">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Log In</a></li>
+            <li><a href="#">Create Account</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Projects/Filter Nav Bar -->
+    <div class="grid-x grid-padding-x">
+      <div class="large-3 medium -3 cell">
+        <div class=" primary callout">
+          <h5>Projects</h5>
+        </div>
+      </div>
+
+<!-- Container to store swim lanes -->
+      <div class= "large-9 medium-9 cell">
+        <div class= "primary callout">
+            <h5>Board</h5>
+          <div class="grid-x grid-padding-x">
+
+<!-- TO-DO Swim Lane -->
+            <div class="large-3 medium-3 cell">
+              <div class="todo-list-card card">
+                <div class="card-divider">
+                  <h3>To Do</h3>
+                </div>
+                <div class="card-section">
+                  <ul>
+                    <li><input id="item1" type="checkbox"></input><label for="item1"></label>Item 1</li>
+                    <li><input id="item2" type="checkbox"></input><label for="item2"></label>Item 2</li>
+                    <li><input id="item3" type="checkbox"></input><label for="item3"></label>Item 3</li>
+                    <li><input id="item4" type="checkbox"></input><label for="item4"></label>Item 4</li>
+                    <li><input id="item5" type="checkbox"></input><label for="item5"></label>Item 5</li>
+                    <li><input id="item6" type="checkbox"></input><label for="item6"></label>Item 6</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+<!-- DOING Swim Lane -->
+            <div class="large-3 medium-3 cell">
+              <div class="todo-list-card card">
+                <div class="card-divider">
+                  <h3>Doing</h3>
+                </div>
+                <div class="card-section">
+                  <ul>
+                    <li><input id="item1" type="checkbox"></input><label for="item1"></label>Item 1</li>
+                    <li><input id="item2" type="checkbox"></input><label for="item2"></label>Item 2</li>
+                    <li><input id="item3" type="checkbox"></input><label for="item3"></label>Item 3</li>
+                    <li><input id="item4" type="checkbox"></input><label for="item4"></label>Item 4</li>
+                    <li><input id="item5" type="checkbox"></input><label for="item5"></label>Item 5</li>
+                    <li><input id="item6" type="checkbox"></input><label for="item6"></label>Item 6</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+<!-- DONE Swim Lane -->
+            <div class="large-3 medium-3 cell">
+              <div class="todo-list-card card">
+                <div class="card-divider">
+                  <h3>Done</h3>
+                </div>
+                <div class="card-section">
+                  <ul>
+                    <li><input id="item1" type="checkbox"></input><label for="item1"></label>Item 1</li>
+                    <li><input id="item2" type="checkbox"></input><label for="item2"></label>Item 2</li>
+                    <li><input id="item3" type="checkbox"></input><label for="item3"></label>Item 3</li>
+                    <li><input id="item4" type="checkbox"></input><label for="item4"></label>Item 4</li>
+                    <li><input id="item5" type="checkbox"></input><label for="item5"></label>Item 5</li>
+                    <li><input id="item6" type="checkbox"></input><label for="item6"></label>Item 6</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+<!-- OVERDUE Swim Lane -->
+            <div class="large-3 medium-3 cell">
+              <div class="todo-list-card card">
+                <div class="card-divider">
+                  <h3>Overdue</h3>
+                </div>
+                <div class="card-section">
+                  <ul>
+                    <li><input id="item1" type="checkbox"></input><label for="item1"></label>Item 1</li>
+                    <li><input id="item2" type="checkbox"></input><label for="item2"></label>Item 2</li>
+                    <li><input id="item3" type="checkbox"></input><label for="item3"></label>Item 3</li>
+                    <li><input id="item4" type="checkbox"></input><label for="item4"></label>Item 4</li>
+                    <li><input id="item5" type="checkbox"></input><label for="item5"></label>Item 5</li>
+                    <li><input id="item6" type="checkbox"></input><label for="item6"></label>Item 6</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Scripts -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
