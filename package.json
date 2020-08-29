@@ -1,65 +1,29 @@
 {
-  "name": "kanban4you",
+  "name": "illbehonest",
   "version": "1.0.0",
-
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-
   "description": "A full-stack web development kanban board for multiple users and project management.",
-  "main": "server.js",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
-
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GildedRose/Kanban4You.git"
+    "url": "git+https://github.com/Ottiemobile/illbehonest.git"
   },
-
+  "keywords": [],
   "author": "",
-
-  "keywords": [
-    "node.js",
-    "express.js",
-    "kanban",
-    "board",
-    "sequelize",
-    "MySQL",
-    "Foundation",
-    "Sass",
-    "Javascript",
-    "Moment.js",
-    "dotenv",
-    "Gulp",
-    "project",
-    "management",
-    "heroku"
-  ],
-  "author": "GildedRose, Devmadia, Ottiemobile",
-
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GildedRose/Kanban4You/issues"
+    "url": "https://github.com/Ottiemobile/illbehonest/issues"
   },
-  "homepage": "https://github.com/GildedRose/Kanban4You#readme",
-
-  "devDependencies": {
-    "gulp": "^4.0.2"
-  },
-  "dependencies": {}
-
-  "dependencies": {
-    "bcrypt": "^5.0.0",
-    "connect-session-sequelize": "^7.0.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "node": "^14.8.0",
-    "mysql2": "^2.1.0",
-    "sequelize": "^6.3.4",
-    "express-session": "^1.17.1"
-  }
-
+  "homepage": "https://github.com/Ottiemobile/illbehonest#readme"
 }
